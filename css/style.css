@@ -34,7 +34,7 @@ header h1 {
 .description {
   clear: left;
 }
-
+/* マウスを当てた時のアニメーション処理じわっと色が変わる*/
 .description img {
   float: left;
   margin: 0 10px 10px 0;
@@ -43,7 +43,7 @@ header h1 {
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-
+/* 疑似クラス*/
 .description img:hover {
   opacity: .5;
 }
